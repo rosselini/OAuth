@@ -1,0 +1,20 @@
+{
+    "name": "OAuth",
+    "description": "OAuth library",
+    "type": "library",
+    "homepage": "https://github.com/rosselini/OAuth",
+    "autoload": {
+        "psr-0": {
+            "OAuth": "src/"
+        },
+        "classmap": [
+	     "./"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/rosselini/OAuth.git"
+        }
+    ]
+}
